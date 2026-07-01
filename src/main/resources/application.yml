@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/oraegage?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: ghkdwodyd
+    password: Ro9wkd27!@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
